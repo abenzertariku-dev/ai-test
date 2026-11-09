@@ -7,4 +7,4 @@ for i in range(7):
 
 
 for j in range(7):
-        print("*" * (7 - j))
+        print("j" * (7 - j))
