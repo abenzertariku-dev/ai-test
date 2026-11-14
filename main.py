@@ -11,3 +11,4 @@ def math(opertor ,numa ,numb):
 
 
 math("*" ,10 ,20)    
+# this becouse the calculation for the tax is reqired
