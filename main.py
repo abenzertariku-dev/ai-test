@@ -1,14 +1,7 @@
+# a function that calculate the ara of triangle
+def area_of_triangle ( w ,l):
+    area = l * w
+    return area
 
-def math(opertor ,numa ,numb):
-    if opertor == "*":
-        print ((numa * numb))
-    if opertor == "/":
-        print ((numa / numb))
-    if opertor == "+":
-       print ((numa + numb))
-    if opertor == "-":
-         print ((numa - numb))
-
-
-math("*" ,10 ,20)    
-# this becouse the calculation for the tax is reqired
+the_result = area_of_triangle(5, 10)
+print (f'the area of the triangle is {the_result}')
