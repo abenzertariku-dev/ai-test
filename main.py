@@ -4,4 +4,5 @@ def area_of_triangle ( w ,l):
     return area
 
 the_result = area_of_triangle(5, 10)
-print (f'the area of the triangle is {the_result}')
+print (f'the area of the triangle is {the_result} alsohello world'
+       )
