@@ -4,6 +4,6 @@ def weather_finder(long ,lat):
     urll = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={long}&current_weather=true"
     response = req.get(urll)
     data = response.json()
-    return data
+    return data ["timezone"], data["current_weather"]["temperature"], data["current_weather"]["windspeed"]
 
 print(weather_finder(77.1025, 28.7041))  # Example coordinates for New Delhi, India
