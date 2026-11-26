@@ -1,7 +1,7 @@
 import requests as req
 import pandas as pd
 import matplotlib.pyplot as plt
-import os 
+
 def weather_finder(long ,lat):
     urll = f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={long}&current_weather=true"
     response = req.get(urll)
